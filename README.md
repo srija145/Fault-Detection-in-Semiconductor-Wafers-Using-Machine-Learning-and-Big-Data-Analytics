@@ -34,11 +34,11 @@ Installation:
 
 ### Data Preprocessing:
 In this step, we perform different steps of data validation and preprocessing like
-●	Null values check
-●	Outliers check
-●	Standard deviation check
-●	Target Class Imbalance check
-●	Data Distribution check
+1. Null values check
+2. Outliers check
+3. Standard deviation check
+4. Target Class Imbalance check
+5. Data Distribution check
  
 ### Null values check: 
 
@@ -50,7 +50,8 @@ In this step, we checked for the outliers using box plots and identified some ou
 
 ### Standard Deviation check:
 
-In this step, we checked the standard deviation of all the columns and identified around 116 columns with 0 standard deviation. As this means that all these sensors’ data is same for all the wafers, there is meaningful insights from these columns so, we decide to drop these 116 columns.
+In this step, we checked the standard deviation of all the columns and identified around 116 columns with 0 standard deviation.
+As this means that all these sensors’ data is same for all the wafers, there is meaningful insights from these columns so, we decide to drop these 116 columns.
 
  ### Target Class Imbalance check:
 
